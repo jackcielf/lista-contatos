@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana, helvetica, serif;
+}
+
+body {
+	background: #001E80;
+}
+
+.h1 {
+	background: #001E80;
+	margin-bottom: 0;
+	border-bottom: .5px solid #263C9E;
+}
+
+.card {
+	background: transparent !important;
+	border: none !important;
+}
+
+.input-control {
+	width: 100%;
+	outline: none;
+	border: none !important;
+	background: transparent !important;
+	border-bottom: 1.5px solid #254CFA !important;
+}
+
+.input-control::placeholder {
+	font-family: monospace;
+	font-size: .9em;
+	color: rgba(255, 255, 255, .5);
+	font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+	.card {
+		width: 460px !important;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.container {
+		width: 650px !important;
+	}
+
+}
